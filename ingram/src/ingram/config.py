@@ -12,3 +12,4 @@ class Config:
     
     # Default keywords (you can expand later)
     DEFAULT_KEYWORDS = ["stock", "photo", "microstock"]
+    KEYWORDS_PATH = "~/Google Drive/My Drive/Biz/Keywords/keywords.json"
