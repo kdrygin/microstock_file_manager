@@ -29,7 +29,7 @@ def rename(filepath, title):
 def run():
     print('test')
     keywords = load_keywords()
-    print(keywords['Grass'])
+    print(keywords['Happy parents and baby with birthday cake'])
 
 if __name__ == '__main__':
     main()
