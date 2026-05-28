@@ -1,0 +1,16 @@
+[project]
+name = "ingram"
+version = "0.1.0"
+description = "Microstock file manager - rename, keywords, descriptions, EXIF"
+requires-python = ">=3.10"
+dependencies = [
+    "Pillow",
+    "exifread",
+    "click",
+]
+
+[project.scripts]
+ingram = "ingram.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

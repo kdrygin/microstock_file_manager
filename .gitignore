@@ -38,6 +38,7 @@ zen-env/
 .idea/
 *.swp
 *.swo
+*.sublime-workspace
 
 # OS
 .DS_Store
