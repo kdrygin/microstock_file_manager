@@ -12,4 +12,5 @@ class Config:
     
     # Default keywords (you can expand later)
     DEFAULT_KEYWORDS = ["stock", "photo", "microstock"]
-    KEYWORDS_PATH = "~/Google Drive/My Drive/Biz/Keywords/keywords.json"
+    # KEYWORDS_PATH = "~/Google Drive/My Drive/Biz/Keywords/keywords.json"
+    KEYWORDS_PATH = "/Users/kdrygin/Projects/microstock_file_manager/ingram/data/keywords_example.json"

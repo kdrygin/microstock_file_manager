@@ -1,6 +1,7 @@
 import click
 from .utils import sanitize_filename
 from .config import Config
+from .keywords import load_keywords
 
 @click.group()
 def main():
@@ -23,6 +24,12 @@ def rename(filepath, title):
     
     path.rename(new_path)
     click.echo(f"Renamed: {new_name}")
+
+@main.command()
+def run():
+    print('test')
+    keywords = load_keywords()
+    print(keywords['Grass'])
 
 if __name__ == '__main__':
     main()
