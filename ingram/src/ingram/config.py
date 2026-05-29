@@ -16,3 +16,5 @@ class Config:
     KEYWORDS_PATH = os.path.expanduser("~/Google Drive/My Drive/Biz/Keywords/keywords.json")
     # KEYWORDS_PATH = "~/Google Drive/My Drive/Biz/Keywords/keywords.json"
     # KEYWORDS_PATH = "/Users/kdrygin/Projects/microstock_file_manager/ingram/data/keywords_example.json"
+    
+    IMAGE_PATTERNS = ["*.jpg", "*.png"]
