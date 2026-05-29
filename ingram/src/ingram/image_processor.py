@@ -5,6 +5,7 @@ from typing import Dict, Any, Optional
 
 from .config import Config
 from .keywords import load_keywords
+from .utils import sanitize_filename
 
 
 def extract_image_name(filename: str) -> str:
@@ -71,8 +72,8 @@ def process_images(
     folder_path: Path | str,
     keywords: Dict[str, Any],
     description_length: int = 200,
-    main_keywords_key: str = "main_keywords",
-    optional_keywords_key: str = "optional_keywords"
+    main_keywords_key: str = "mainKeywords",
+    optional_keywords_key: str = "optionalKeywords"
 ) -> Dict[str, Any]:
     """
     Process all image files in the specified folder and update image descriptions.
@@ -121,7 +122,7 @@ def process_images(
             all_keywords = main_kws + optional_kws
 
             # Create description placeholder (string of specified length)
-            description = "a" * description_length
+            description = "Test description"
 
             # Update image descriptions dict
             image_descriptions[new_filename] = {

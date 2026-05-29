@@ -26,10 +26,11 @@ General info and XMP data.
 
 Contains three sections:
 
--   **items** --- keywords to describe items\
--   **themes** --- keywords for themes (e.g. Christmas)\
--   **types** --- keywords to describe result image types (e.g. coloring
-    page, isolated vector items)
+  - **items** — keywords to describe items  
+  - **themes** — keywords for themes (e.g. Christmas)  
+  - **types** — keywords to describe result image types (e.g. coloring page, isolated vector items)
+
+Each section contains two keyword arrays: **mainKeywords** and **optionalKeywords**.
 
 ------------------------------------------------------------------------
 
